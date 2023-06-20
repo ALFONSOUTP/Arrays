@@ -2,10 +2,10 @@ package practicacalificada2;
 import java.util.Scanner;
 public class Pregunta4 {
 	public static void main(String[] args) {
-	    Scanner teclado = new Scanner(System.in);
-	    System.out.print("Ingrese el valor de n: ");
-	    int n = teclado.nextInt();
-	    int[] primes = new int[n];
+	    Scanner teclado = new Scanner(System.in); //crear un objeto teclado que almacena el valor ingresado por consola
+	    System.out.print("Ingrese el valor de n: "); //muestra un menaje pidiendo que ingrese un valor
+	    int n = teclado.nextInt(); //el valor ingresado lo alcena en una variable de tipo entero
+	    int[] primes = new int[n]; //
 	    int count = 0;
 	    int num = 2;
 	    while (count < n) {
