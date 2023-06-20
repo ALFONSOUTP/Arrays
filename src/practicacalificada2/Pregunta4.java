@@ -2,9 +2,9 @@ package practicacalificada2;
 import java.util.Scanner;
 public class Pregunta4 {
 	public static void main(String[] args) {
-	    Scanner input = new Scanner(System.in);
+	    Scanner teclado = new Scanner(System.in);
 	    System.out.print("Ingrese el valor de n: ");
-	    int n = input.nextInt();
+	    int n = teclado.nextInt();
 	    int[] primes = new int[n];
 	    int count = 0;
 	    int num = 2;
